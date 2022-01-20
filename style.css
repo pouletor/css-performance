@@ -6,4 +6,5 @@ body {
   font-family: Lato;
 }
 
+/* Already imported here */
 @import './quarks/colors';
