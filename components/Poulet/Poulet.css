@@ -1,0 +1,19 @@
+.poulet-wrapper {
+  --primary-blue: red;
+}
+
+/* 
+Don't do!
+Because :root is global and this will override the variable ..
+*/
+/* :root {
+  --primary-blue: green;
+} */
+
+.poulet {
+  font-size: 2rem;
+}
+
+.poulet p {
+  color: var(--primary-blue);
+}
